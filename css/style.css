@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5 {
     font-family: Devin;
 }
 
-p, a, li {
+p, a, li, span {
     font-family: Poppins;
 }
 
@@ -62,7 +62,7 @@ header {
     width: 100%;
     max-width: 100vw;
     padding: 0;
-    background-color: ;
+    /* background-color: ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +165,8 @@ header .socials {
 }
 
 #hero figure {
-    height: 25rem;
+    width: 36rem;
+    max-width: 98%;
 }
 
 .hero {
@@ -427,6 +428,7 @@ header .socials {
 
 #contact .left {
     flex-basis: 40rem;
+    max-width: 100%;
 }
 
 
@@ -652,7 +654,7 @@ header .socials {
     width: 100%;
 }
 
-#values .mision, #values .vision  {
+#values .mision, #values .vision {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -741,7 +743,7 @@ header .socials {
 
 #real_state .text p {
     font-size: 2rem;
-} 
+}
 
 #real_state ul {
     list-style: inside;
@@ -750,7 +752,7 @@ header .socials {
 
 #real_state li {
     font-size: 1.6rem;
-    margin: 1rem 0; 
+    margin: 1rem 0;
 }
 
 #real_state a {
@@ -824,6 +826,131 @@ header .socials {
     height: fit-content;
 }
 
+
+
+/* VENTAS  */
+
+#ventas {
+    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/juridicos-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    padding: 0 8rem;
+    color: white;
+    padding-top: 20vh;
+    position: relative;
+}
+
+#ventas h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#properties {
+    margin-top: 10rem;
+    padding: 0 8rem;
+    display: flex;
+    column-gap: 4rem;
+}
+
+
+#properties .left {
+    color: var(--blue);
+}
+
+#properties .left hr {
+    width: 100%;
+    min-width: 20rem;
+    max-width: 90vw;
+    height: 1px;
+    background-color: var(--blue);
+}
+
+#properties .left p {
+    font-size: 2rem;
+    margin: 2.5rem 0;
+    cursor: pointer;
+}
+
+#properties .right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 2rem;
+}
+
+#properties .right .property {
+    flex-basis: 30rem;
+    flex-grow: 1;
+    height: fit-content;
+}
+
+.property figure {
+    width: 100%;
+}
+
+.property .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.property .top span {
+    color: white;
+    background-color: var(--blue);
+    padding: 0.5rem 1rem;
+}
+
+.property .location {
+    font-size: 1.8rem;
+}
+
+.property .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bedrooms, .bathrooms, .area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    gap: 0.2rem;
+}
+
+.close {
+    display: none;
+}
+
+.filter-menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 2rem;
+    background-color: var(--blue);
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    color: white;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+
+
+.filter-menu i {
+    font-size: 2rem;
+}
+
+/* VENTAS  */
+
 /* FOOTER  */
 
 footer hr {
@@ -867,6 +994,12 @@ footer .bottom {
     margin: 0 auto;
     /* margin-top: 5rem; */
     align-items: center;
+}
+
+footer .bottom .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer .bottom p, footer .bottom a {
@@ -1072,6 +1205,10 @@ footer .bottom .right a {
         padding: 5rem 0rem;
     }
 
+    #ventas {
+        padding: 0rem 2rem;
+    }
+
     footer figure {
         margin-top: 2rem;
     }
@@ -1086,6 +1223,42 @@ footer .bottom .right a {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+
+    #properties {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    #properties .left {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        /* padding-top: 10rem; */
+        background-color: white;
+        z-index: 10000;
+        display: none;
+        padding: 2rem;
+    }
+
+    .close {
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-left: 85vw;
+        display: block;
+        cursor: pointer;
+    }
+
+    .filter-menu-button {
+        display: flex;
+    }
+
+    .filter-menu-button:hover {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.7);
     }
 
 }
