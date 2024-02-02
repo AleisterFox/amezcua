@@ -872,10 +872,14 @@ header .socials {
     font-size: 2rem;
     overflow-y: hidden;
     margin: 2rem 0;
+    min-height: 3rem;
+    height: 3rem;
+    transition: all 0.3s ease-in-out;
 }
 
 #properties .filter-option p {
     cursor: pointer;
+    height: fit-content;
 }
 
 #properties .right {
@@ -959,6 +963,11 @@ header .socials {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    height: fit-content;
+}
+
+#properties form {
+    height: fit-content;
 }
 
 #properties li {
@@ -979,8 +988,8 @@ header .socials {
 
 #properties input[type="number"]::-webkit-outer-spin-button,
 #properties input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 #properties ::placeholder {
@@ -995,6 +1004,7 @@ header .socials {
     color: white;
     background-color: var(--blue);
     cursor: pointer;
+    margin-top: 0.5rem;
 }
 
 /* VENTAS  */
@@ -1273,6 +1283,13 @@ footer .bottom .right a {
         justify-content: center;
     }
 
+    #properties {
+        background-color: white;
+    }
+
+    main {
+        background-color: white;
+    }
 
     #properties {
         position: relative;
@@ -1287,8 +1304,8 @@ footer .bottom .right a {
         height: 100vh;
         /* padding-top: 10rem; */
         background-color: white;
-        z-index: 10000;
-        display: none;
+        z-index: -10000;
+
         padding: 2rem;
     }
 
