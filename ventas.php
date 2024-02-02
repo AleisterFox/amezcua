@@ -30,18 +30,18 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">
+        <a href="index.php">
           <figure>
             <img src="img/logo_mini.png" alt="" />
           </figure>
         </a>
         <ul class="menu">
-          <li><a href="us.html">Nosotros</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="juridicos.html">Asesoría Jurídica</a></li>
-          <li><a href="ventas.html">Venta</a></li>
-          <li><a href="rentas.html">Renta</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="us.php">Nosotros</a></li>
+          <li><a href="services.php">Servicios</a></li>
+          <li><a href="juridicos.php">Asesoría Jurídica</a></li>
+          <li><a href="ventas.php">Venta</a></li>
+          <li><a href="rentas.php">Renta</a></li>
+          <li><a href="contact.php">Contacto</a></li>
         </ul>
         <div class="socials">
           <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -55,7 +55,7 @@
       <section id="ventas">
         <h2>Venta</h2>
       </section>
-      
+
       <section id="properties">
         <div class="filter-menu-button">
           <p>Filtrar</p>
@@ -65,13 +65,92 @@
           <span class="close">X</span>
           <h2>Filtros</h2>
           <hr />
-          <p class="filter-option">Ubicación</p>
-          <p class="filter-option">Propiedad</p>
-          <p class="filter-option">Precio</p>
-          <p class="filter-option">Recamaras</p>
-          <p class="filter-option">Baños</p>
-          <p class="filter-option">Construcción</p>
-          <p class="filter-option">Terreno</p>
+          <div class="filter-option">
+            <p>Ubicación</p>
+            <ul>
+              <li>Queretaro <span>(1)</span></li>
+              <li>Celaya <span>(1)</span></li>
+              <li>San Miguel de Allende <span>(1)</span></li>
+            </ul>
+          </div>
+          <div class="filter-option">
+            <p>Propiedad</p>
+            <ul>
+              <li>Bodega <span>(1)</span></li>
+              <li>Casa <span>(1)</span></li>
+              <li>Departamento <span>(1)</span></li>
+            </ul>
+          </div>
+          <div class="filter-option">
+            <p>Precio</p>
+            <form action="">
+              <input type="number" name="min" id="min" placeholder="Mínimo" />
+              <input type="number" name="max" id="max" placeholder="Máximo" />
+              <select name="divisa" id="divisa">
+                <option value="">Pesos mexicanos</option>
+                <option value="">Dólares estadounidenses</option>
+                <option value="">Euros</option>
+              </select>
+              <button type="submit">Aplicar »</button>
+            </form>
+          </div>
+
+          <div class="filter-option">
+            <p>Recámaras</p>
+            <ul>
+              <li>1+ <span>(1)</span></li>
+              <li>2+ <span>(1)</span></li>
+              <li>3+ <span>(1)</span></li>
+            </ul>
+          </div>
+
+          <div class="filter-option">
+            <p>Baños</p>
+            <ul>
+              <li>1+ <span>(1)</span></li>
+              <li>2+ <span>(1)</span></li>
+              <li>3+ <span>(1)</span></li>
+            </ul>
+          </div>
+
+          <div class="filter-option">
+            <p>Construcción</p>
+
+            <form action="">
+              <input
+                type="number"
+                name="min-mts"
+                id="min-mts"
+                placeholder="Desde (m²)"
+              />
+              <input
+                type="number"
+                name="max-mts"
+                id="max-mts"
+                placeholder="Hasta (m²)"
+              />
+              <button type="submit">Aplicar »</button>
+            </form>
+          </div>
+
+          <div class="filter-option">
+            <p>Terreno</p>
+            <form action="">
+              <input
+                type="number"
+                name="min-mts"
+                id="min-mts"
+                placeholder="Desde (m²)"
+              />
+              <input
+                type="number"
+                name="max-mts"
+                id="max-mts"
+                placeholder="Hasta (m²)"
+              />
+              <button type="submit">Aplicar »</button>
+            </form>
+          </div>
         </div>
         <div class="right">
           <div class="property">
@@ -303,18 +382,42 @@
     </footer>
     <script src="js/index.js"></script>
     <script>
-      const filterMenu = document.querySelector('.filter-menu');
-      const filterMenuButton = document.querySelector('.filter-menu-button');
-      const close = document.querySelector('.close');
-      filterMenuButton.addEventListener('click', () => {
-          filterMenu.style.display = 'block';
-          document.documentElement.style.overflowY = "hidden";
+      const filterMenu = document.querySelector(".filter-menu");
+      const filterMenuButton = document.querySelector(".filter-menu-button");
+      const close = document.querySelector(".close");
+      filterMenuButton.addEventListener("click", () => {
+        filterMenu.style.display = "block";
+        document.documentElement.style.overflowY = "hidden";
       });
 
-      close.addEventListener('click', () => {
-        filterMenu.style.display = 'none';
+      close.addEventListener("click", () => {
+        filterMenu.style.display = "none";
         document.documentElement.style.overflowY = "scroll";
-      } );
+      });
+    </script>
+
+    <script>
+      const filterOptions = document.querySelectorAll(".filter-option");
+
+      filterOptions.forEach((filterOption) => {
+        let titleHeight = filterOption.firstElementChild.clientHeight;
+        // console.log(`Title: ${titleHeight}`);
+        let contentHeight = filterOption.lastElementChild.clientHeight;
+        // console.log(`Content: ${contentHeight}`);
+        let totalHeight = titleHeight + contentHeight;
+        // console.log(`Total: ${totalHeight}`);
+        filterOption.style.height = `${titleHeight}px`;
+
+        filterOption.firstElementChild.addEventListener("click", () => {
+          if (filterOption.classList.contains("active")) {
+            filterOption.style.height = `${titleHeight}px`;
+            filterOption.classList.remove("active");
+          } else {
+            filterOption.style.height = `${totalHeight}px`;
+            filterOption.classList.add("active");
+          }
+        });
+      });
     </script>
   </body>
 </html>

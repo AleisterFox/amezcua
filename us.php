@@ -30,18 +30,18 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">
+        <a href="index.php">
           <figure>
             <img src="img/logo_mini.png" alt="" />
           </figure>
         </a>
         <ul class="menu">
-          <li><a href="us.html">Nosotros</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="juridicos.html">Asesoría Jurídica</a></li>
-          <li><a href="ventas.html">Venta</a></li>
-          <li><a href="rentas.html">Renta</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="us.php">Nosotros</a></li>
+          <li><a href="services.php">Servicios</a></li>
+          <li><a href="juridicos.php">Asesoría Jurídica</a></li>
+          <li><a href="ventas.php">Venta</a></li>
+          <li><a href="rentas.php">Renta</a></li>
+          <li><a href="contact.php">Contacto</a></li>
         </ul>
         <div class="socials">
           <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -52,46 +52,62 @@
       </nav>
     </header>
     <main>
-      <section id="real_state">
-        <div class="container">
+      <section id="hero" class="nosotros">
+        <div class="us">
           <div class="left">
-            <div class="top">
-              <h2>
-                Servicios <br />
-                inmobiliarios
-              </h2>
-              <hr />
-            </div>
-            <figure>
-              <img src="img/si1.jpg" alt="" />
-            </figure>
-
-            <figure>
-              <img src="img/si2.jpg" alt="" />
-            </figure>
+            <h2>Nosotros</h2>
           </div>
-
           <div class="right">
-            <div class="text">
-                <p>Brindamos servicio de asesoría y acompañamiento integral en la comercialización de bienes inmuebles.</p>
-                <ul>
-                    <li>Servicio de promoción y comercialización de inmuebles (terrenos, casas, departamentos, locales comerciales, oficinas, consultorios, bodegas, etc.).</li>
-                    <li>Asesoría jurídica en operaciones de compra, venta o renta de inmuebles.</li>
-                    <li>Elaboración de contratos inmobiliarios.</li>
-                    <li>Gestión de pólizas jurídicas de arrendamiento.</li>
-                </ul>
-            </div>
+            <hr />
+            <p>
+              Nuestra empresa surge con la intención de brindar a las personas
+              un asesoramiento integral al momento de comercializar sus
+              propiedades, ofreciéndoles seguridad jurídica y transparencia en
+              sus transacciones.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="values">
+        <h3>“Nuestros valores”</h3>
+        <div class="container">
+          <p>Profesionalismo</p>
+          <span class="dot"></span>
+          <p>Honestidad</p>
+          <span class="dot"></span>
+          <p>Disciplina</p>
+          <span class="dot"></span>
+          <p>Compromiso</p>
+          <span class="dot"></span>
+          <p>Servicio</p>
+        </div>
+        <div class="mision">
+          <figure>
+            <img src="img/mision.jpg" alt="" />
+          </figure>
+          <div class="text">
             <div class="top">
-              <h2>Contacto</h2>
+              <h2>Misión</h2>
               <hr />
             </div>
-            <a href="mailto:contacto@amezcuamx.com"><i class="fa-solid fa-envelope"></i> contacto@amezcuamx.com</a>
-            <a href="tel:+52 473 108 7546"><i class="fa-solid fa-phone"></i> 473 108 7546</a>
+            <p>Brindar a nuestros clientes un asesoramiento integral, profesional y de calidad en la adquisición, comercialización y defensa jurídica de su patrimonio.</p>
+          </div>
+        </div>
+        <div class="vision">
+          <figure>
+            <img src="img/vision.jpg" alt="" />
+          </figure>
+          <div class="text">
+            <div class="top">
+              <h2>Visión</h2>
+              <hr />
+            </div>
+            <p>Ser una empresa líder en la región, en materia de asesoría jurídica y comercialización de inmuebles.</p>
           </div>
         </div>
       </section>
     </main>
-    <footer style="margin-top: 10rem;">
+    <footer>
       <hr />
       <figure>
         <img src="img/logo_black.png" alt="" />

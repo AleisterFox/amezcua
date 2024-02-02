@@ -30,18 +30,18 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">
+        <a href="index.php">
           <figure>
             <img src="img/logo_mini.png" alt="" />
           </figure>
         </a>
         <ul class="menu">
-          <li><a href="us.html">Nosotros</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="juridicos.html">Asesoría Jurídica</a></li>
-          <li><a href="ventas.html">Venta</a></li>
-          <li><a href="rentas.html">Renta</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          <li><a href="us.php">Nosotros</a></li>
+          <li><a href="services.php">Servicios</a></li>
+          <li><a href="juridicos.php">Asesoría Jurídica</a></li>
+          <li><a href="ventas.php">Venta</a></li>
+          <li><a href="rentas.php">Renta</a></li>
+          <li><a href="contact.php">Contacto</a></li>
         </ul>
         <div class="socials">
           <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -52,22 +52,22 @@
       </nav>
     </header>
     <main>
-      <section id="hero">
-        <div class="hero">
+      <section id="hero" class="services">
+        <!-- <div class="hero">
           <figure>
             <img src="img/logo_white.png" alt="" />
           </figure>
 
-          <a href="#us">
+          <a href=".us">
             <p>Conoce más</p>
             <i class="fa-solid fa-chevron-down"></i>
           </a>
-        </div>
+        </div> -->
 
-        <div id="us" class="us">
+        <div class="us">
           <div class="left">
-            <h2>Nosotros</h2>
-            <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
+            <h2>Servicios</h2>
+            
           </div>
           <div class="right">
             <hr />
@@ -198,9 +198,7 @@
       <figure>
         <img src="img/logo_black.png" alt="" />
       </figure>
-      <a href="tel:+" target="_blank"
-        ><i class="fa-solid fa-phone"></i> &nbsp; 473 108 7546</a
-      >
+      <a href="tel:+" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp; 473 108 7546</a>
       <div class="socials">
         <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -208,10 +206,7 @@
       <div class="bottom">
         <div class="left">
           <p>2023&copy;</p>
-          <p>
-            Todos los derechos reservados
-            <img src="img/Icono_molcajete.png" alt="" />
-          </p>
+          <p>Todos los derechos reservados <img src="img/Icono_molcajete.png" alt=""></p>
         </div>
         <div class="right">
           <a href="" target="_blank">Privacidad</a>

@@ -30,18 +30,18 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">
+        <a href="index.php">
           <figure>
             <img src="img/logo_mini.png" alt="" />
           </figure>
         </a>
         <ul class="menu">
-          <li><a href="us.html">Nosotros</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="juridicos.html">Asesoría Jurídica</a></li>
-          <li><a href="ventas.html">Venta</a></li>
-          <li><a href="rentas.html">Renta</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="us.php">Nosotros</a></li>
+          <li><a href="services.php">Servicios</a></li>
+          <li><a href="juridicos.php">Asesoría Jurídica</a></li>
+          <li><a href="ventas.php">Venta</a></li>
+          <li><a href="rentas.php">Renta</a></li>
+          <li><a href="contact.php">Contacto</a></li>
         </ul>
         <div class="socials">
           <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>

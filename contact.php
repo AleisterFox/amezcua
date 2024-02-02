@@ -30,18 +30,18 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">
+        <a href="index.php">
           <figure>
             <img src="img/logo_mini.png" alt="" />
           </figure>
         </a>
         <ul class="menu">
-          <li><a href="us.html">Nosotros</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="juridicos.html">Asesoría Jurídica</a></li>
-          <li><a href="ventas.html">Venta</a></li>
-          <li><a href="rentas.html">Renta</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="us.php">Nosotros</a></li>
+          <li><a href="services.php">Servicios</a></li>
+          <li><a href="juridicos.php">Asesoría Jurídica</a></li>
+          <li><a href="ventas.php">Venta</a></li>
+          <li><a href="rentas.php">Renta</a></li>
+          <li><a href="contact.php">Contacto</a></li>
         </ul>
         <div class="socials">
           <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -52,73 +52,8 @@
       </nav>
     </header>
     <main>
-      <section id="hero" class="services">
-        <!-- <div class="hero">
-          <figure>
-            <img src="img/logo_white.png" alt="" />
-          </figure>
-
-          <a href=".us">
-            <p>Conoce más</p>
-            <i class="fa-solid fa-chevron-down"></i>
-          </a>
-        </div> -->
-
-        <div class="us">
-          <div class="left">
-            <h2>Servicios</h2>
-            
-          </div>
-          <div class="right">
-            <hr />
-            <p>
-              Nuestra empresa surge con la intención de brindar a las personas
-              un asesoramiento integral al momento de comercializar sus
-              propiedades, ofreciéndoles seguridad jurídica y transparencia en
-              sus transacciones.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="services">
-        <div class="top">
-          <div class="left">
-            <h2>Servicios</h2>
-            <hr />
-          </div>
-          <figure>
-            <img src="img/golden_frame.png" alt="" />
-          </figure>
-        </div>
-        <div class="bottom">
-          <div class="service">
-            <div class="top">
-              <figure>
-                <img src="img/juridicos.png" alt="" />
-              </figure>
-              <p>01</p>
-            </div>
-            <h3>Servicios jurídicos</h3>
-            <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-          <div class="service">
-            <div class="top">
-              <figure>
-                <img src="img/inmobiliarios.png" alt="" />
-              </figure>
-              <p>02</p>
-            </div>
-            <h3>Servicios inmobiliarios</h3>
-            <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </section>
-      <div class="banner">
-        <hr />
-        <p>Ofrecemos seguridad jurídica y transparencia.</p>
-        <hr />
-      </div>
-      <section id="contact">
+      
+      <section id="contact" style="padding-top: 15vh; margin-top: 0;">
         <div class="left">
           <div class="top">
             <h2>Contacto</h2>
