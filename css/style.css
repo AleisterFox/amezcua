@@ -217,7 +217,7 @@ header .socials {
 }
 
 #hero.services .us, #hero.nosotros .us {
-    padding-top: 25rem;
+    padding-top: 25vh;
     max-width: 90vw;
     flex-wrap: wrap;
     margin: 0 auto;
