@@ -53,6 +53,10 @@ figure img {
     object-fit: cover;
 }
 
+#hero figure img {
+    object-fit: contain;
+}
+
 h2 {
     font-size: 4rem;
 }
@@ -324,6 +328,18 @@ header .socials {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#services .bottom .service:hover {
+    background-color: var(--blue);
+}
+
+#services .bottom .service:hover figure {
+    filter: invert(100%);
+}
+
+#services .bottom .service:hover h3 {
+    color: white;
 }
 
 .service .top {
@@ -652,6 +668,10 @@ header .socials {
 #values figure {
     height: 20rem;
     width: 100%;
+}
+
+#values figure img {
+    object-position: center 10%;
 }
 
 #values .mision, #values .vision {
