@@ -46,7 +46,7 @@
   <main>
     <section id="real_state">
       <div class="container">
-        <div class="left">
+        <div class="left fadeIn wow">
           <div class="top">
             <h2>
               Servicios <br />
@@ -63,7 +63,7 @@
           </figure>
         </div>
 
-        <div class="right">
+        <div class="right fadeInRight wow">
           <div class="text">
             <p>Brindamos servicio de asesoría y acompañamiento integral en la comercialización de bienes inmuebles.</p>
             <ul>

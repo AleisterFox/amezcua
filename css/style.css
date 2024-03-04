@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+.wow {
+    animation-duration: 1s !important;
+}
+
+.delay {
+    animation-delay: 500ms !important;
+}
+
+.delay1 {
+    animation-delay: 1s !important;
+}
+
+.delay2 {
+    animation-delay: 1.5s !important;
+}
+
+.delay3 {
+    animation-delay: 2s !important;
+}
 
 html {
     font-size: 62.5%;
@@ -145,10 +164,10 @@ header .socials {
 
 #hero {
     background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/hero.jpg'), lightgray 50%;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
-    height: 180vh;
+    background-position: center;
+    height: 100vh;
 }
 
 #hero.services {
@@ -819,6 +838,7 @@ header .socials {
     transition: all 0.3s ease;
 }
 
+
 #real_state.juridicos .option .title {
     display: flex;
     justify-content: space-between;
@@ -851,10 +871,22 @@ header .socials {
 /* VENTAS  */
 
 #ventas {
-    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/juridicos-hero.jpg');
+    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/venta.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 70vh;
+    padding: 0 8rem;
+    color: white;
+    padding-top: 20vh;
+    position: relative;
+}
+
+#ventas.rentas {
+    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/renta.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     height: 70vh;
     padding: 0 8rem;
     color: white;
@@ -913,6 +945,10 @@ header .socials {
     flex-basis: 30rem;
     flex-grow: 1;
     height: fit-content;
+}
+
+#properties .right .property:nth-child(even) {
+    animation-delay: 1s !important;
 }
 
 .property figure {

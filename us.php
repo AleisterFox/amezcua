@@ -45,7 +45,7 @@
   </header>
   <main>
     <section id="hero" class="nosotros">
-      <div class="us">
+      <div class="us fadeInLeft wow">
         <div class="left">
           <h2>Nosotros</h2>
         </div>
@@ -61,7 +61,7 @@
       </div>
     </section>
     <section id="values">
-      <h3>“Nuestros valores”</h3>
+      <h3 >“Nuestros valores”</h3>
       <div class="container">
         <p>Profesionalismo</p>
         <span class="dot"></span>
@@ -74,10 +74,10 @@
         <p>Servicio</p>
       </div>
       <div class="mision">
-        <figure>
+        <figure class="fadeInLeft wow">
           <img src="img/mision.jpg" alt="" />
         </figure>
-        <div class="text">
+        <div class="text fadeInLeft wow delay2">
           <div class="top">
             <h2>Misión</h2>
             <hr />
@@ -86,10 +86,10 @@
         </div>
       </div>
       <div class="vision">
-        <figure>
+        <figure class="fadeInRight wow">
           <img src="img/vision.jpg" alt="" />
         </figure>
-        <div class="text">
+        <div class="text fadeInRight wow delay2">
           <div class="top">
             <h2>Visión</h2>
             <hr />

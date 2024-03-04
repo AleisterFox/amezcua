@@ -56,7 +56,7 @@
           </a>
         </div> -->
 
-      <div class="us">
+      <div class="us fadeInLeft wow">
         <div class="left">
           <h2>Servicios</h2>
 
@@ -83,7 +83,7 @@
         </figure>
       </div>
       <div class="bottom">
-        <div class="service">
+        <div class="service fadeInLeft wow">
           <div class="top">
             <figure>
               <img src="img/juridicos.png" alt="" />
@@ -93,7 +93,7 @@
           <h3>Servicios jurídicos</h3>
           <a href="juridicos.php">Ver más <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="service">
+        <div class="service fadeInRight wow">
           <div class="top">
             <figure>
               <img src="img/inmobiliarios.png" alt="" />
@@ -111,7 +111,7 @@
       <hr />
     </div>
     <section id="contact">
-      <div class="left">
+      <div class="left fadeInLeft wow">
         <div class="top">
           <h2>Contacto</h2>
           <hr />
@@ -125,7 +125,7 @@
         </div>
       </div>
 
-      <div class="right">
+      <div class="right fadeInRight wow">
         <h3>
           ¿Necesitas información? <br />
           ¡Escríbenos, estamos para ayudarte!
@@ -143,7 +143,7 @@
         </figure>
       </div>
     </section>
-    <section id="location">
+    <section id="location" class="bounceInUp wow">
       <div>
         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carr.%20Guanajuato%20-%20Juventino%20Rosas%20200,%2036256%20Yerbabuena,%20Gto.+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 

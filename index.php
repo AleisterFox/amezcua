@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="img/logo_mini.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> -->
+  <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -46,8 +47,8 @@
   <main>
     <section id="hero">
       <div class="hero">
-        <figure>
-          <img src="img/logo_white.png" alt="" />
+        <figure class="fadeIn wow" style="animation-duration: 1.5s !important;">
+          <img class="pulse wow" src="img/logo_white.png" alt="" />
         </figure>
 
         <a href="#us">
@@ -56,7 +57,7 @@
         </a>
       </div>
 
-      <div id="us" class="us">
+      <!-- <div id="us" class="us">
         <div class="left">
           <h2>Nosotros</h2>
           <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
@@ -70,11 +71,11 @@
             sus transacciones.
           </p>
         </div>
-      </div>
+      </div> -->
     </section>
     <section id="services">
       <div class="top">
-        <div class="left">
+        <div class="left fadeInLeft wow">
           <h2>Servicios</h2>
           <hr />
         </div>
@@ -83,7 +84,7 @@
         </figure>
       </div>
       <div class="bottom">
-        <div class="service">
+        <div class="service fadeInLeft delay1 wow">
           <div class="top">
             <figure>
               <img src="img/juridicos.png" alt="" />
@@ -93,7 +94,7 @@
           <h3>Servicios jurídicos</h3>
           <a href="juridicos.php">Ver más <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="service">
+        <div class="service fadeInRight delay1 wow">
           <div class="top">
             <figure>
               <img src="img/inmobiliarios.png" alt="" />
@@ -105,27 +106,27 @@
         </div>
       </div>
     </section>
-    <div class="banner">
+    <div class="banner fadeInUp wow">
       <hr />
       <p>Ofrecemos seguridad jurídica y transparencia.</p>
       <hr />
     </div>
     <section id="contact">
-      <div class="left">
+      <div class="left fadeInLeft wow">
         <div class="top">
           <h2>Contacto</h2>
           <hr />
         </div>
         <a href="mailto:contacto@amezcuamx.com"><i class="fa-solid fa-envelope"></i>&nbsp;
           contacto@amezcuamx.com</a>
-        <a href="tel:+52 473 108 7546"><i class="fa-solid fa-phone"></i>&nbsp; 473 108 7546</a>
+        <a href="https://wa.link/84gxug"><i class="fa-brands fa-whatsapp"></i>&nbsp; 473 108 7546</a>
         <div class="rrss">
           <a href="https://www.facebook.com/profile.php?id=61553279586836" target="_blank"><i class="fa-brands fa-facebook"></i></a>
           <a href="https://www.instagram.com/amezcuamx_asesores/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
 
-      <div class="right">
+      <div class="right fadeInRight wow">
         <h3>
           ¿Necesitas información? <br />
           ¡Escríbenos, estamos para ayudarte!
@@ -143,7 +144,7 @@
         </figure>
       </div>
     </section>
-    <section id="location">
+    <section id="location" class="bounceInUp wow">
       <div>
         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carr.%20Guanajuato%20-%20Juventino%20Rosas%20200,%2036256%20Yerbabuena,%20Gto.+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
@@ -171,6 +172,7 @@
     <div class="socials">
       <a href="https://www.facebook.com/profile.php?id=61553279586836" target="_blank"><i class="fa-brands fa-facebook"></i></a>
       <a href="https://www.instagram.com/amezcuamx_asesores/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.link/84gxug" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
     <div class="bottom">
       <div class="left">

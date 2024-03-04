@@ -125,7 +125,7 @@
         </div>
       </div>
       <div class="right">
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p1.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -147,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p2.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -169,7 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p3.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -191,7 +191,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p1.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -213,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p2.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -235,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p3.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -257,7 +257,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p1.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -279,7 +279,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p2.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>
@@ -301,7 +301,7 @@
             </div>
           </div>
         </div>
-        <div class="property">
+        <div class="property fadeInUp wow">
           <figure><img src="img/p3.png" alt="" /></figure>
           <div class="top">
             <p class="price">$ 0,000,000</p>

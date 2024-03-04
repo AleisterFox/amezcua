@@ -47,7 +47,7 @@
     <section id="juridicos"></section>
     <section id="real_state" class="juridicos" style="padding: 0; margin-top: 10rem">
       <div class="container">
-        <div class="left">
+        <div class="left fadeIn wow">
           <div class="top">
             <h2>
               Servicios <br />
@@ -71,7 +71,7 @@
               materias:
             </p>
             <ul>
-              <li class="option">
+              <li class="option fadeInRight wow" style="animation-delay: 0.25s !important;">
                 <div class="title">
                   <p>Civil</p>
                   <span>+</span>
@@ -83,7 +83,7 @@
                   </p>
                 </div>
               </li>
-              <li class="option">
+              <li class="option fadeInRight wow" style="animation-delay: 0.5s !important;">
                 <div class="title">
                   <p>Mercantil</p>
                   <span>+</span>
@@ -95,7 +95,7 @@
                   </p>
                 </div>
               </li>
-              <li class="option">
+              <li class="option fadeInRight wow" style="animation-delay: 0.75s !important;">
                 <div class="title">
                   <p>Administrativo</p>
                   <span>+</span>
@@ -110,7 +110,7 @@
                   </p>
                 </div>
               </li>
-              <li class="option">
+              <li class="option fadeInRight wow" style="animation-delay: 1s !important;">
                 <div class="title">
                   <p>Agrario</p>
                   <span>+</span>
@@ -122,7 +122,7 @@
                   </p>
                 </div>
               </li>
-              <li class="option">
+              <li class="option fadeInRight wow" style="animation-delay: 1.25s !important;">
                 <div class="title">
                   <p>Penal</p>
                   <span>+</span>
@@ -136,7 +136,7 @@
                   </p>
                 </div>
               </li>
-              <li class="option">
+              <li class="option fadeInRight wow" style="animation-delay: 1.5s !important;">
                 <div class="title">
                   <p>Amparo</p>
                   <span>+</span>
@@ -172,7 +172,7 @@
           </div>
         </div> -->
 
-      <div class="right" style="padding: 10rem; flex-basis: 90rem;">
+      <div class="right bounceInUp wow" style="padding: 10rem; flex-basis: 90rem;">
         <h3>
           Agenda una reunión con nosotros <br />
           ¡Escríbenos, estamos para ayudarte!

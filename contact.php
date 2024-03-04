@@ -54,7 +54,7 @@
     <main>
       
       <section id="contact" style="padding-top: 15vh; margin-top: 0;">
-        <div class="left">
+        <div class="left fadeInLeftBig wow">
           <div class="top">
             <h2>Contacto</h2>
             <hr />
@@ -72,7 +72,7 @@
           </div>
         </div>
 
-        <div class="right">
+        <div class="right fadeInRightBig wow">
           <h3>
             ¿Necesitas información? <br />
             ¡Escríbenos, estamos para ayudarte!
@@ -101,7 +101,7 @@
           </figure>
         </div>
       </section>
-      <section id="location">
+      <section id="location" class="slideInUp wow">
         <div>
           <iframe
             width="100%"
