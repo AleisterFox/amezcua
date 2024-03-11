@@ -76,6 +76,14 @@ figure img {
     object-fit: contain;
 }
 
+#hero figure img{
+    transition: all 0.3s ease-in-out;
+}
+
+#hero figure img:hover {
+    transform: scale(1.1);
+}
+
 h2 {
     font-size: 4rem;
 }
@@ -166,7 +174,7 @@ header .socials {
     background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/hero.jpg'), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;    
     height: 100vh;
 }
 
