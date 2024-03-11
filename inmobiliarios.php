@@ -83,7 +83,7 @@
       </div>
     </section>
   </main>
-  <footer style="margin-top: 10rem;">
+  <footer>
     <hr />
     <figure>
       <img src="img/logo_black.png" alt="" />
@@ -92,6 +92,7 @@
     <div class="socials">
       <a href="https://www.facebook.com/profile.php?id=61553279586836" target="_blank"><i class="fa-brands fa-facebook"></i></a>
       <a href="https://www.instagram.com/amezcuamx_asesores/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.link/84gxug" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
     <div class="bottom">
       <div class="left">

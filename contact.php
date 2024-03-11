@@ -129,26 +129,30 @@
       </section>
     </main>
     <footer>
-      <hr />
-      <figure>
-        <img src="img/logo_black.png" alt="" />
-      </figure>
-      <a href="tel:+" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp; 473 108 7546</a>
-      <div class="socials">
-        <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <hr />
+    <figure>
+      <img src="img/logo_black.png" alt="" />
+    </figure>
+    <a href="tel:+52 473 108 7546" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp; 473 108 7546</a>
+    <div class="socials">
+      <a href="https://www.facebook.com/profile.php?id=61553279586836" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/amezcuamx_asesores/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.link/84gxug" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div class="bottom">
+      <div class="left">
+        <p>2023&copy;</p>
+        <p>
+          Todos los derechos reservados
+          <img src="img/Icono_molcajete.png" alt="" />
+        </p>
       </div>
-      <div class="bottom">
-        <div class="left">
-          <p>2023&copy;</p>
-          <p>Todos los derechos reservados <img src="img/Icono_molcajete.png" alt=""></p>
-        </div>
-        <div class="right">
-          <a href="" target="_blank">Privacidad</a>
-          <a href="" target="_blank">Términos y condiciones</a>
-        </div>
+      <div class="right">
+        <a href="" target="_blank">Privacidad</a>
+        <a href="" target="_blank">Términos y condiciones</a>
       </div>
-    </footer>
+    </div>
+  </footer>
     <script src="js/index.js"></script>
   </body>
 </html>

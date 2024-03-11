@@ -879,23 +879,23 @@ header .socials {
 /* VENTAS  */
 
 #ventas {
-    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/venta.jpg');
+    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
+    height: 30vh;
     padding: 0 8rem;
     color: white;
-    padding-top: 20vh;
+    padding-top: 25vh;
     position: relative;
 }
 
 #ventas.rentas {
-    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%), url('../img/renta.jpg');
+    background: linear-gradient(180deg, #1C3A4D 0%, rgba(28, 58, 77, 0.43) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 70vh;
+    height: 30vh;
     padding: 0 8rem;
     color: white;
     padding-top: 20vh;
@@ -904,8 +904,8 @@ header .socials {
 
 #ventas h2 {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 3rem;
+    /* transform: translateY(-50%); */
 }
 
 #properties {
@@ -913,6 +913,7 @@ header .socials {
     padding: 0 8rem;
     display: flex;
     column-gap: 4rem;
+    margin-bottom: 15rem;
 }
 
 
@@ -947,12 +948,18 @@ header .socials {
     flex-wrap: wrap;
     flex-grow: 1;
     gap: 2rem;
+    row-gap: 4rem;
+    justify-content: space-between;
 }
 
 #properties .right .property {
-    flex-basis: 30rem;
-    flex-grow: 1;
+    flex-basis: 35rem;
+    flex-grow: 0;
     height: fit-content;
+}
+
+#properties .right .property:last-child {
+    flex-grow: 0;
 }
 
 #properties .right .property:nth-child(even) {
