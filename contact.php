@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,9 +25,12 @@
       new WOW().init();
     </script>
     <title>Amezcua</title>
-  </head>
+	<?php
+	include_once"mapa/index.php";
+	?>
+</head>
 
-  <body>
+  <body onload="initialize()">
     <header>
       <nav>
         <a href="index.php">
@@ -103,7 +106,8 @@
       </section>
       <section id="location" class="slideInUp wow">
         <div>
-          <iframe
+			<div id="map-canvas"></div>
+          <!--iframe
             width="100%"
             height="600"
             frameborder="0"
@@ -111,7 +115,7 @@
             marginheight="0"
             marginwidth="0"
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carr.%20Guanajuato%20-%20Juventino%20Rosas%20200,%2036256%20Yerbabuena,%20Gto.+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          ></iframe>
+          ></iframe-->
 
           <div class="address">
             <div class="top">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -17,9 +17,12 @@
     new WOW().init();
   </script>
   <title>Amezcua</title>
+	<?php
+	include_once"mapa/index.php";
+	?>
 </head>
 
-<body>
+<body onload="initialize()">
   <header>
     <nav>
       <a href="index.php">
@@ -64,9 +67,9 @@
         <div class="right">
           <hr />
           <p>
-            Nuestra empresa surge con la intención de brindar a las personas
+            Nuestra empresa surge con la intención de brindar a las personas
             un asesoramiento integral al momento de comercializar sus
-            propiedades, ofreciéndoles seguridad jurídica y transparencia en
+            propiedades, ofreciéndoles seguridad jurídica y transparencia en
             sus transacciones.
           </p>
         </div>
@@ -145,7 +148,8 @@
     </section>
     <section id="location" class="bounceInUp wow">
       <div>
-        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carr.%20Guanajuato%20-%20Juventino%20Rosas%20200,%2036256%20Yerbabuena,%20Gto.+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <div id="map-canvas"></div>
+        <!--iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carr.%20Guanajuato%20-%20Juventino%20Rosas%20200,%2036256%20Yerbabuena,%20Gto.+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe-->
 
         <div class="address">
           <div class="top">
