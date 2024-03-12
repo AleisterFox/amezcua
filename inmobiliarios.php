@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" xml:lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -65,7 +65,7 @@
 
         <div class="right fadeInRight wow">
           <div class="text">
-            <p>Brindamos servicio de asesoría y acompañamiento integral en la comercialización de bienes inmuebles.</p>
+            <p>Brindamos servicio de asesoría y acompañamiento integral en la comercialización de bienes inmuebles.</p>
             <ul>
               <li>Servicio de promoción y comercialización de inmuebles (terrenos, casas, departamentos, locales comerciales, oficinas, consultorios, bodegas, etc.).</li>
               <li>Asesoría jurídica en operaciones de compra, venta o renta de inmuebles.</li>

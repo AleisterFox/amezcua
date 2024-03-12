@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" xml:lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -52,9 +52,9 @@
         <div class="right">
           <hr />
           <p>
-            Nuestra empresa surge con la intención de brindar a las personas
+            Nuestra empresa surge con la intención de brindar a las personas
             un asesoramiento integral al momento de comercializar sus
-            propiedades, ofreciéndoles seguridad jurídica y transparencia en
+            propiedades, ofreciéndoles seguridad jurídica y transparencia en
             sus transacciones.
           </p>
         </div>

@@ -1,13 +1,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js" type="text/javascript"></script>
 <!--MAPS-->
-	<!-- AIzaSyDkuh_V3NRZAMllUac9-mLmSbUQi8LbNgc -->
-	<!-- AIzaSyARCaMQLSnHxhMIqqBXWSEnjQnT70xt1TQ -->
 	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyARCaMQLSnHxhMIqqBXWSEnjQnT70xt1TQ&&sensor=false"></script>
 	<script type="text/javascript">
 			function initialize() {
 				if($(window).width() > 600) {
-					var latlng = new google.maps.LatLng(20.973573, -101.280503);
+					var latlng = new google.maps.LatLng(20.973529, -101.280817);
                 } else {
 					var latlng = new google.maps.LatLng(20.973330, -101.279725);
 			    };
