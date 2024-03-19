@@ -18,9 +18,9 @@
     new WOW().init();
   </script>
   <title>Amezcua</title>
-	<?php
-	include_once"mapa/index.php";
-	?>
+  <?php
+  include_once "mapa/index.php";
+  ?>
 </head>
 
 <body onload="initialize()">
@@ -54,27 +54,20 @@
           <img class="pulse wow" src="img/logo_white.png" alt="" />
         </figure>
 
-        <a href="#us">
-          <p>Conoce más</p>
-          <i class="fa-solid fa-chevron-down"></i>
-        </a>
+
+        <div id="us" class="us">
+          <div class="right">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia at iusto blanditiis magni delectus amet reiciendis, quasi aliquid repellat accusantium beatae? Accusamus minus omnis optio laboriosam repellendus perferendis dolor culpa!
+            </p>
+          </div>
+        </div>
+
+
+       
       </div>
 
-      <!-- <div id="us" class="us">
-        <div class="left">
-          <h2>Nosotros</h2>
-          <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        <div class="right">
-          <hr />
-          <p>
-            Nuestra empresa surge con la intención de brindar a las personas
-            un asesoramiento integral al momento de comercializar sus
-            propiedades, ofreciéndoles seguridad jurídica y transparencia en
-            sus transacciones.
-          </p>
-        </div>
-      </div> -->
+
     </section>
     <section id="services">
       <div class="top">
@@ -149,7 +142,7 @@
     </section>
     <section id="location" class="bounceInUp wow">
       <div>
-		  <div id="map-canvas"></div>
+        <div id="map-canvas"></div>
         <!--iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carr.%20Guanajuato%20-%20Juventino%20Rosas%20200,%2036256%20Yerbabuena,%20Gto.+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe-->
 
         <div class="address">

@@ -130,6 +130,7 @@ header nav {
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
+    /* background-color: var(--golden); */
     border-radius: 1rem;
 }
 
@@ -139,6 +140,8 @@ header nav {
 
 header nav .menu a {
     color: white;
+    /* color: var(--golden); */
+    /* color: black; */
     font-size: 1.6rem;
     font-weight: light;
     transition: all 0.2s ease-in-out;
@@ -241,7 +244,7 @@ header .socials {
 .us {
     color: white;
     display: flex;
-    padding: 8rem;
+    padding: 0 8rem;
     justify-content: center;
     align-items: center;
     column-gap: 10rem;
@@ -291,7 +294,7 @@ header .socials {
 
 .us .right p {
     width: 60rem;
-    max-width: 100%;
+    max-width: 90vw;
     font-size: 1.6rem;
 }
 
@@ -888,9 +891,9 @@ header .socials {
     background-repeat: no-repeat;
     background-position: center;
     height: 30vh;
-    padding: 0 8rem;
+    padding: 0rem;
     color: white;
-    padding-top: 25vh;
+    padding-top: 20vh;
     position: relative;
 }
 
@@ -908,8 +911,14 @@ header .socials {
 
 #ventas h2 {
     position: absolute;
-    bottom: 3rem;
+    bottom: 0;
     /* transform: translateY(-50%); */
+    width: 100%;
+    padding: 0 8rem;
+    background-color: var(--golden);
+    height: 10rem;
+    display: flex;
+    align-items: center;
 }
 
 #properties {
@@ -1224,6 +1233,7 @@ footer .bottom .right a {
 
     #hero {
         height: 100vh;
+        padding-top: 4rem;
     }
 
     #hero .container {
@@ -1298,7 +1308,7 @@ footer .bottom .right a {
     }
 
     .us {
-        padding: 8rem 2rem;
+        padding: 0rem 2rem;
     }
 
     #services>.top {
